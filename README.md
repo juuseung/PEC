@@ -1,6 +1,8 @@
 # Towards Persona-Based Empathetic Conversational Models (PEC)
-This is the repo for our work "[Towards Persona-Based Empathetic Conversational Models](https://arxiv.org/abs/2004.12316)" (EMNLP 2020). The code depends on PyTorch (>=v1.0) and [transformers]((https://github.com/huggingface/transformers)) (>=v2.3).
+This repository is a fork of [PEC](https://github.com/zhongpeixiang/PEC), which documents my experiments with fine-tuning the PEC model and analyzing its performance.
+The code depends on PyTorch (>=v1.0) and [transformers]((https://github.com/huggingface/transformers)) (>=v2.3).
 
+The original PEC model is described in the following paper: "[Towards Persona-Based Empathetic Conversational Models](https://arxiv.org/abs/2004.12316)" (EMNLP 2020).
 
 ### Data
 The PEC dataset is available [here](https://www.dropbox.com/s/9lhdf6iwv61xiao/cleaned.zip?dl=0).
@@ -22,3 +24,6 @@ This repo includes our implementation of CoBERT.
 Set test_mode=1 and load_model_path to a saved model in CoBERT_config.json, and then run
 
 ```python CoBERT.py --config CoBERT_config.json```
+
+### License
+This project is licensed under the GNU GENERAL PUBLIC LICENSE. See the [LICENSE](LICENSE) file for details.
