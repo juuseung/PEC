@@ -48,6 +48,8 @@ The following configurations were used:
 
 These subsets allowed for experimentation with smaller datasets while maintaining meaningful results.
 
+---
+
 ## Training
 - **The original PEC model**
 
@@ -68,6 +70,8 @@ Set test_mode=1 and load_model_path to a saved model in CoBERT_config.json, and 
 
     ```python CoBERT_finetuned.py --config CoBERT_finetuned_config.json```
 
+---
+
 ## Challenges
 ### Hardware Limitations
 1. Memory issues while processing large datasets.
@@ -80,6 +84,8 @@ Set test_mode=1 and load_model_path to a saved model in CoBERT_config.json, and 
 2. Focused solely on CoBERT to reduce computational overhead.
 
 3. Optimized workflow with early stopping and adjusted hyperparameters.
+
+---
 
 ## Results and Observations
 ### Loss Comparison
@@ -104,6 +110,8 @@ The mixed MRR performance suggests the need for further optimization.
 Despite constraints in hardware and dataset size:  
 - This work demonstrates the effectiveness of CoBERT for persona-based empathetic response generation.  
 - It underscores CoBERT's potential for persona-driven conversational AI tasks.  
+
+---
 
 ## Future Work
 1. **Dataset Expansion**: Train on larger datasets to improve downstream performance metrics like MRR.
